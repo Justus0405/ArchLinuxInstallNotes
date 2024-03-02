@@ -5,8 +5,8 @@
  - 1: loadkeys de
  - 2: lsblk
  - 3: gdisk /dev/nvme0n1
-          - x
-          - z
+      - x
+      - z
  - 4: reboot
 
  - 5: loadkeys de
