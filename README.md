@@ -95,6 +95,7 @@
  - sudo reboot
 
 [50-mouse-acceleration.conf]
+```
 Section "InputClass"
 	Identifier "My Mouse"
 	MatchIsPointer "yes"
@@ -102,3 +103,4 @@ Section "InputClass"
 	Option "AccelerationDenominator" "1"
 	Option "AccelerationThreshold" "0"
 EndSection
+```
