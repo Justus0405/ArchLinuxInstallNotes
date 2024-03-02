@@ -92,6 +92,7 @@
  - sudo mv /usr/share/X11/xorg.conf.d/40-libinput.conf ~/
  - sudo cp ~/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/
  - sudo reboot
+ - sudo pacman -S lxappearance-gtk3
 
 [50-mouse-acceleration.conf]
 ```
