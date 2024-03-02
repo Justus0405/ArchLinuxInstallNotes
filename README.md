@@ -91,7 +91,6 @@
  - sudo pacman -S xf86-input-evdev
  - sudo mv /usr/share/X11/xorg.conf.d/40-libinput.conf ~/
  - sudo cp ~/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/
- - sudo cp ~/50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
  - sudo reboot
 
 [50-mouse-acceleration.conf]
