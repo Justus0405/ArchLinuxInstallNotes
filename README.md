@@ -74,33 +74,19 @@
 
 # Installing a DE
 
+[Gnome]
+
  - 1: sudo pacman -S gnome gnome-tweaks gdm gst-libav
  - 2: sudo systemctl enable gdm
  - 3: reboot
 
-[OPTIONAL]
+[i3-wm]
 
- - 1: sudo pacman -S i3-wm polybar rofi alacritty
- - 2: reboot
+ - 1: git clone https://github.com/Justus0405/i3wm-dotfiles.git
+ - 2: cd i3wm-dotfiles/src/
+ - 3: chmod +x install.sh
 
 [ONLY FOR ME]
 
  - 1: pactl list sources
  - 2: pactl set-default-source alsa_input.usb-Solid_State_System_Co._Ltd._LCS_USB_Audio_000000000000-00.mono-fallback
-
- - sudo pacman -S xf86-input-evdev
- - sudo mv /usr/share/X11/xorg.conf.d/40-libinput.conf ~/
- - sudo cp ~/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/
- - sudo reboot
- - sudo pacman -S lxappearance-gtk3
-
-[50-mouse-acceleration.conf]
-```
-Section "InputClass"
-	Identifier "My Mouse"
-	MatchIsPointer "yes"
-	Option "AccelerationNumerator" "1"
-	Option "AccelerationDenominator" "1"
-	Option "AccelerationThreshold" "0"
-EndSection
-```
