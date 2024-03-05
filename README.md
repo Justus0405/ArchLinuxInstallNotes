@@ -70,8 +70,8 @@
 
  - 1: sudo pacman -S pipewire lib32-pipewire pipewire-pulse pipewire-jack wireplumber rtkit
  - 2: sudo usermod -a -G rtkit $USER
- - 2: systemctl --user enable pipewire pipewire-pulse
- - 3: sudo localectl set-keymap de
+ - 3: systemctl --user enable pipewire pipewire-pulse
+ - 4: sudo localectl set-keymap de
 
 # Installing a DE
 
