@@ -68,7 +68,8 @@
 
 # Post configuration
 
- - 1: sudo pacman -S pipewire pipewire-pulse pipewire-jack
+ - 1: sudo pacman -S pipewire lib32-pipewire pipewire-pulse pipewire-jack wireplumber rtkit
+ - 2: sudo usermod -a -G rtkit $USER
  - 2: systemctl --user enable pipewire pipewire-pulse
  - 3: sudo localectl set-keymap de
 
