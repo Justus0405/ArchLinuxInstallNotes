@@ -64,7 +64,8 @@
 
  - 1: grub-install --target=x86_64-efi --efi-directory=/boot --bootload-id=grub --removable
  - 2: grub-mkconfig -o /boot/grub/grub.cfg
- - 3: reboot
+ - 3: exit
+ - 4: reboot
 
 # Post configuration
 
