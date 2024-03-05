@@ -86,6 +86,7 @@
  - 1: git clone https://github.com/Justus0405/i3wm-dotfiles.git
  - 2: cd i3wm-dotfiles/src/
  - 3: chmod +x install.sh
+ - 4: ./install.sh
 
 [ONLY FOR ME]
 
