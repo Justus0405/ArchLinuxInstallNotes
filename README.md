@@ -21,7 +21,7 @@
  - 11: mkfs.ext4 /dev/nvme0n1p3
  
  - 12: mount /dev/nvme0n1p3 /mnt
- - 13: mount --mkdir /dev/nvme0n1p3 /mnt/home
+ - 13: mount --mkdir /dev/nvme0n1p1 /mnt/boot
  - 14: mount --mkdir /dev/sda1 /mnt/media
  
  - 15: pacstrap -K /mnt base base-devel linux linux-firmware sof-firmware linux-headers nano networkmanager grub efibootmgr intel-ucode bash-completion
