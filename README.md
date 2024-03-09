@@ -55,10 +55,10 @@
  - 1: pacman -S nvidia-dkms libglvnd nvidia-utils opencl-nvidia nvidia-settings
  - 2: nano /etc/mkinitcpio.conf
       - MODULES (nvidia nvidia_modeset nvidia_uvm nvidia_drm)
- - 3: exec /usr/bin/mkinitcpio -P
- - 4: arch-chroot /mnt
- - 5: nano /etc/default/grub
+ - 3: nano /etc/default/grub
       - GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nvidia_drm.modeset=1"
+ - 4: exec /usr/bin/mkinitcpio -P
+ - 5: arch-chroot /mnt
 
 # Grub
 
