@@ -78,8 +78,9 @@
 [Gnome]
 
  - 1: sudo pacman -S gnome gnome-tweaks gdm gst-libav
- - 2: sudo systemctl enable gdm
- - 3: reboot
+ - 2: sudo localectl set-keymap de
+ - 3: sudo systemctl enable gdm
+ - 4: reboot
 
 [i3-wm]
 
