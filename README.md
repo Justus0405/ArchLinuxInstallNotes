@@ -67,12 +67,11 @@
  - 3: exit
  - 4: reboot
 
-# Post configuration
+# Audio Server / Pipewire
 
  - 1: sudo pacman -S lib32-pipewire pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse gst-plugin-pipewire wireplumber rtkit
  - 2: sudo usermod -a -G rtkit $USER
  - 3: systemctl --user enable pipewire pipewire-pulse
- - 4: sudo localectl set-keymap de
 
 # Installing a DE
 
