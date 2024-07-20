@@ -45,7 +45,7 @@
  - 8: echo "LANG=de_DE.UTF-8" >> /etc/locale.conf
  - 9: echo "arch" > /etc/hostname
  - 10: echo "KEYMAP=de" > /etc/vconsole.conf
- - 11: useradd -m -G wheel,power -s /bin/bash justus
+ - 11: useradd -m -G wheel,power,storage,video,audio -s /bin/bash justus
  - 12: passwd justus
  - 13: EDITOR=nano visudo
       - %wheel
